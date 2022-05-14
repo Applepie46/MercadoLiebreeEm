@@ -1,0 +1,58 @@
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #EAC926;
+
+}
+
+.menu {
+    width: 2em;
+    background-color: #1259c3;
+}
+
+.icono-mano{
+    text-align: center;
+}
+
+.nav {
+    font-size: 12px;
+
+}
+
+.listas ul li a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
