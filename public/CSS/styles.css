@@ -20,9 +20,38 @@ header {
 
 }
 
+.logo{
+    margin: 20px;
+    width:180px;
+}
+
+.search-div{
+    display: flex;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.icono-busqueda{
+    display: inline-block;
+    width: fit-content;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
 .menu {
-    width: 2em;
+    
+    width: fit-content;
+    margin-left: 41%;
     background-color: #1259c3;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa-bars{
+    padding: 15px;
+    color: #fff;
+    font-size: 30px; 
 }
 
 .icono-mano{
@@ -31,13 +60,53 @@ header {
 
 .nav {
     font-size: 12px;
-
 }
 
 .listas ul li a{
     color: #000;
     font-weight: bold;
     text-decoration: none;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+img{
+    width: 200px;
+}
+
+section{
+    text-align: center;
+}
+
+.fa-credit-card{
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:#1259c3;
+}
+
+
+.fa-gift{
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:#1259c3;
+}
+
+.fa-user-shield{
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:#1259c3;
+}
+
+.text-footer{
+    color:#666;
+}
+.footer-paragraph{
+    color:  #666;
 }
 
 .titulares {
