@@ -27,8 +27,10 @@ header {
 
 .search-div{
     display: flex;
-    width: fit-content;
+    width: 271px;
     margin-left: 20px;
+    position: relative;
+
 }
 
 .icono-busqueda{
@@ -41,17 +43,18 @@ header {
 .menu {
     
     width: fit-content;
-    margin-left: 41%;
+    margin-left: 43%;
     background-color: #1259c3;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
+
 }
 
 .fa-bars{
     padding: 15px;
     color: #fff;
-    font-size: 30px; 
+    font-size: 190%; 
 }
 
 .icono-mano{
@@ -115,13 +118,33 @@ section{
 
 .precios {
     font-size: 18px;
+    padding: 15px;
+    float: left;
+    text-align: justify;
 }
 
 .descuentos {
     font-size: 16px;
+    color: #39b54a;
+    padding-left: 17px;
+    padding-top: 16px;
+    float: left;
+    text-align: justify;
 }
 
 .descripciones {
     font-size: 16px;
 }
-
+.input-wrapper {
+    position: relative;
+    width: 250px;
+}
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height:20px;
+    left:250px;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -6,10 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="../public/CSS/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 
 </head>
@@ -17,156 +24,166 @@
 <body>
     <header>
 
-        <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo del sitio">
-        
-        <div class="search-div">
+        <img class="logo" src="../public/images/logo-mercado-liebre.svg" alt="Logo del sitio" style="width: 42%;" div
+            class="input-wrapper">
+        <input type="search"
+            style="width: 40%; border: 0px solid; border-radius: 7px; font-size: 13px; text-align: center; height: 30px; margin-top: px;"
+            placeholder="Buscar productos">
 
-            <input class="search" type="search" placeholder="Buscar" />
-
-        </div>
-
-        <div class="icono-busqueda">
-
-            <i class="fas fa-search"></i>
 
         </div>
+
+
+
+
 
         <div class="icono-mano">
 
-            <h4><i class="fas fa-hand-holding-usd"></i>Comprar en cuotas y sin tarjeta de credito</h4>
+            <h4 style="font-size: 80%; font-weight: bold;"><i class="fas fa-hand-holding-usd"></i>Comprar en cuotas y
+                sin tarjeta de credito</h4>
 
         </div>
 
-        <div class="nav">
-
-            <nav class="listas">
-
-                <ul>
-
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Tiendas Oficiales</a></li>
-                    <li><a href="#">Vender</a></li>
-                    <li><a href="#">Ayuda</a></li>
-
-                </ul>
-
-                <ul class="lista-ingreso">
-
-                    <li><a href="">Creá tu cuenta</a><i class="fas fa-id-card"></i></i></li>
-                    <li><a href="">ingresá</a><i class="fas fa-sign-in-alt"></i></i></li>
-                    <li><a href="">Mis compras</a><i class="fas fa-shopping-basket"></i></i></li>
-
-                </ul>
-
-            </nav>
-
-        </div>
 
         <div class="menu">
 
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false"></i>
+
+            <div class="dropdown">
+                <!--   <button class="btn btn-secondary " >
+    Dropdown button
+  </button> -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                    <li><a class="dropdown-item" href="#">Tiendas Oficiales</a></li>
+                    <li><a class="dropdown-item" href="#">Vender</a></li>
+                    <li><a class="dropdown-item" href="#">Ayuda</a></li>
+                    <br>
+                    <li><a class="dropdown-item" href="#">Creá tu cuenta</a></li>
+                    <li><a class="dropdown-item" href="#">Ingresá</a></li>
+                    <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                </ul>
+            </div>
 
         </div>
 
+        <img src="../public/images/img-home-banner.jpg" style="width: 100%; margin-top: -20px;">
+
     </header>
 
-    
 
 
 
     <main>
-
-        <section>
-
-            <h3 class="titulares">Sección de ofertas</h3>
-
-            <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera">
-
+        <section style="background-color: #ebebeb;">
+            <br>
             <div>
+                <h3 class="titulares" style="font-weight: bold; color: #666;text-align: center;">Basado en tu última
+                    visita</h3>
 
-                <p class="precios">$6.770</p>
-                <p class="descuentos">40% OFF</p>
-                <p class="descripciones"><strong>Cafetera Moulinex</strong></p>
 
-            </div>
+                <img src="../public/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera"
+                    style="width:92%; margin-top:10px">
 
-            <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook">
+                <div
+                    style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%;
+            height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; margin-left: auto; margin-right: auto;">
 
-            <div>
+                    <p class="precios">$6.770</p>
+                    <p class="descuentos">40% off</p>
 
-                <p class="precios">$230.000</p>
-                <p class="descuentos">20% off</p>
-                <p class="descripciones"><strong>Macbook Pro 2019</strong></p>
+                </div>
 
-            </div>
 
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Imagen de macbook">
+                <img src="../public/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook" style="width:92%">
 
-            <div>
+                <div
+                    style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border-color: #ebebeb; margin-left: auto; margin-right: auto;">
 
-                <p class="precios">$70.500</p>
-                <p class="descuentos">10% OFF</p>
-                <p class="descripciones"><strong>Samsung Galaxy S10</strong></p>
+                    <p class="precios">$230.000</p>
+                    <p class="descuentos">20% off</p>
 
-            </div>
 
-            <img src="/images/img-tv-samsung-smart.jpg" alt="Imagen de tv">
+                </div>
 
-            <div>
+                <img src="../public/images/img-samsung-galaxy-s10.jpg" alt="Imagen de macbook" style="width:92%">
 
-                <p class="precios">$23.200</p>
-                <p class="descuentos">5% OFF</p>
-                <p class="descripciones"><strong>SmartTv Samsung 43"</strong></p>
+                <div
+                    style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
 
-            </div>
+                    <p class="precios">$70.500</p>
+                    <p class="descuentos">10% off</p>
+
+
+                </div>
+
+                <img src="../public/images/img-tv-samsung-smart.jpg" alt="Imagen de tv" style="width:92%">
+
+                <div
+                    style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
+
+                    <p class="precios">$23.200</p>
+                    <p class="descuentos">5% off</p>
+                </div>
+
+                <br>
+                <div>
+                    <h3 class="titulares" style="font-weight: bold; color: #666;text-align: center;">Sección de Ofertas
+                    </h3>
+
+
+                    <img src="../public/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera"
+                        style="width:92%; margin-top:10px">
+
+                    <div
+                        style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
+
+                        <p class="precios">$6.770</p>
+                        <p class="descuentos">40% off</p>
+
+
+                    </div>
+
+                    <img src="../public/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook" style="width:92%">
+
+                    <div
+                        style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
+
+                        <p class="precios">$230.000</p>
+                        <p class="descuentos">20% off</p>
+
+
+                    </div>
+
+                    <img src="../public/images/img-samsung-galaxy-s10.jpg" alt="Imagen de macbook" style="width:92%">
+
+                    <div
+                        style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
+
+                        <p class="precios">$70.500</p>
+                        <p class="descuentos">10% OFF</p>
+
+
+                    </div>
+
+
+                    <img src="../public/images/img-tv-samsung-smart.jpg" alt="Imagen de tv" style="width:92%">
+
+                    <div
+                        style="background-color:#FFFFFF; border-top: 1.7px solid; width: 92%; height: 60px; border-color: #ebebeb; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;border-color: #ebebeb; margin-left: auto; margin-right: auto;">
+
+                        <p class="precios">$23.200</p>
+                        <p class="descuentos">5% off</p>
+                    </div>
+                    <div style="background-color:##ebebeb; height: 15px;">
+
+                    </div>
+
 
         </section>
 
-        <section>
 
-            <h3 class="titulares">Basado en tu última visita</h3>
-
-            <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera">
-
-            <div>
-
-                <p class="precios">$6.770</p>
-                <p class="descuentos">40% OFF</p>
-                <p class="descripciones"><strong>Cafetera Moulinex</strong></p>
-
-            </div>
-
-            <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook">
-
-            <div>
-
-                <p class="precios">$230.000</p>
-                <p class="descuentos">20% off</p>
-                <p class="descripciones"><strong>Macbook Pro 2019</strong></p>
-
-            </div>
-
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Imagen de macbook">
-
-            <div>
-
-                <p class="precios">$70.500</p>
-                <p class="descuentos">10% OFF</p>
-                <p class="descripciones"><strong>Samsung Galaxy S10</strong></p>
-
-            </div>
-
-            <img src="/images/img-tv-samsung-smart.jpg" alt="Imagen de tv">
-
-            <div>
-
-                <p class="precios">$23.200</p>
-                <p class="descuentos">5% OFF</p>
-                <p class="descripciones"><strong>SmartTv Samsung 43"</strong></p>
-
-            </div>
-
-        </section>
 
         <footer class="footer">
 
@@ -198,7 +215,8 @@
 
                 <h3 class="text-footer">Seguridad, de principio a fin</h3>
 
-                <p class="footer-paragraph">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                <p class="footer-paragraph">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                    hacer,
                     porque estás siempre protegid@.</p>
 
             </section>
