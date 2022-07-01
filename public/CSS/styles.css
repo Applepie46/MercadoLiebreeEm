@@ -68,11 +68,11 @@ ul.menu .right {
     padding-left: 20px;
 }
 
-.hero {
+.main-header {
     background-color: #EAC926;
 }
 
-.hero-wrapper {
+.main-header-wrapper {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -82,7 +82,7 @@ ul.menu .right {
     padding: 20px 0;
 }
 
-.hero-wrapper-menu {
+.main-header-wrapper-menu {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -99,22 +99,22 @@ ul.menu .right {
 	justify-content: flex-start;
 	align-items: center;
 }
-.hero-search {
+.main-header-search {
     margin: 0px;
 }
 
-.hero-search-imput {
+.main-header-search-imput {
     width: 280px;
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
     float: left;
 }
-.hero-search-imput:focus {
+.main-header-search-imput:focus {
     color: #666666;
 }
 
-.hero-search__submit {
+.main-header-search__submit {
     margin: 0px;
     padding: 10px 4px;
     border: none;
@@ -123,12 +123,12 @@ ul.menu .right {
     color: #999999;
 }
 
-.hero-menu {
+.main-header-menu {
     color: #666666;
     text-decoration: none;
 }
 
-.hero__burger-menu {
+.main-header__burger-menu {
     display: none;
     background-color: #1259c3;
     color:#ffffff;
@@ -162,14 +162,14 @@ h2.title-home {
     margin-bottom: 40px;
 }
 
-.products-container {
+.productos-container {
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.product {
+.producto {
     background-color: #ffffff;
     width: 23%;
     display: flex;
@@ -181,12 +181,12 @@ h2.title-home {
     transition: all .3s ease-in-out;
 }
 
-.product:hover {
+.producto:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 100%;
 }
 
-.product-price {
+.producto-precio {
     display: flex;
     align-items: center;
     border-top: 1px solid #ebebeb;
@@ -194,7 +194,7 @@ h2.title-home {
     width: 100%;
 }
 
-.product-delivery {
+.envioDeproductoo {
     position: absolute;
     top: -30%;
     right: 10%;
@@ -202,11 +202,11 @@ h2.title-home {
     transition: transform .3s ease-in-out;
 }
 
-.product-delivery:hover {
+.envioDeproductoo:hover {
         transform: rotate(360deg);
 }
 
-.product-delivery-icon {
+.envioDeproductoo-icon {
     color: #39b54a;
     font-size: 16px;
     padding: 9px 7px;
@@ -218,23 +218,23 @@ h2.title-home {
     align-items: center;
 }
 
-.product-img {
+.producto-img {
     width: 100%;
     object-fit: cover;
 }
 
-.product-name {
+.nombreDeproductoo {
     font-size: 16px;
     padding: 0 0 10px 30px;
     opacity: 0;
     transition: all .3s ease-in-out;
 }
 
-.product:hover .product-name{
+.producto:hover .nombreDeproductoo{
     opacity: 1;
 }
 
-.price {
+.precio {
     font-size: 18px;
     padding-left: 30px;
 }
@@ -413,24 +413,24 @@ input[type="date"], focus {
     .container {
         padding: 0 20px;
     }
-    .hero-wrapper {
+    .main-header-wrapper {
         padding: 20px !important;
     }
-    .hero-wrapper-menu {
+    .main-header-wrapper-menu {
         padding: 20px !important;
     }
 }
 
 /* -Tablet- */
 @media only screen and (max-width: 768px) {
-    .hero-search-imput {
+    .main-header-search-imput {
         width: 180px;
     }
-    .product {
+    .producto {
         width:48% !important;
         height: 420px;
     }
-    .product-name {
+    .nombreDeproductoo {
         padding-bottom: 15px;
     }
     .container-form {
@@ -450,10 +450,10 @@ input[type="date"], focus {
 
 /* -Mobile- */
 @media only screen and (max-width: 480px) {
-    .hero {
+    .main-header {
         padding-bottom: 20px;
     }
-    .hero-wrapper {
+    .main-header-wrapper {
         display: flex;
         flex-direction: column;   
         align-items: center;
@@ -464,19 +464,19 @@ input[type="date"], focus {
         width: 210px;
         padding-bottom: 20px;
     }
-    .hero-search {
+    .main-header-search {
         width: auto;
         padding-bottom: 10px;
     }
-    .hero-wrapper-menu {
+    .main-header-wrapper-menu {
         display: none;
     }
-    .hero__burger-menu {
+    .main-header__burger-menu {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .product {
+    .producto {
         width:100% !important;
         height: 420px;
     }
