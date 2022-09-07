@@ -140,11 +140,11 @@ ul.menu .right {
     margin: auto;
 }
 
-.banner-home{
+.main-banner{
     display: block;
     margin-bottom: 60px;
 }
-.banner-home img {
+.main-banner img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -277,7 +277,7 @@ h2.title-home {
     color: #444444;
 }
 
-.register-intereses{
+.intereses{
     color: #444444;
     display: flex;
     margin-bottom: 20px;
@@ -383,7 +383,7 @@ input[type="date"], focus {
 	align-content: center;
 }
 
-.footer-widget {
+.fot-widget {
     text-align: center;
     color: #666666;
     padding-bottom: 15px;
@@ -396,7 +396,7 @@ input[type="date"], focus {
     padding-bottom: 10px;
 }
 
-.footer-widget p {
+.fot-widget p {
     margin: 0px;
     line-height: 18px;
 }
@@ -490,7 +490,7 @@ input[type="date"], focus {
     input[type="date"] {
         width: 250px!important;
     }
-    .register-intereses{
+    .intereses{
         flex-direction: column;
     }
 
@@ -499,7 +499,7 @@ input[type="date"], focus {
         flex-direction: column;
         justify-content: flex-start;
     }
-    .footer-widget {
+    .fot-widget {
         width: 100%;
     }
     footer {
